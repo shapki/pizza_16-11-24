@@ -1,0 +1,3 @@
+interface Sause {
+    fun sauseSale()
+}

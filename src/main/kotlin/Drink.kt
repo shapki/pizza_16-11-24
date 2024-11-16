@@ -1,0 +1,3 @@
+interface Drink {
+    fun drinkSale()
+}
