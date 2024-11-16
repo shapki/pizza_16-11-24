@@ -52,8 +52,8 @@ abstract class PizzaCity(
         }
 
         val money = neapolitanPizzaCount * neapolitanPizzaPrice + romanPizzaCount * romanPizzaPrice +
-                sicilianPizzaCount * sicilianPizzaPrice + tyroleanPizzaCount * tyroleanPizzaPrice +
-                serviceCount * serviceSum + serviceSauseT * serviceSum + serviceSauseC * serviceSum
+                sicilianPizzaCount * sicilianPizzaPrice + tyroleanPizzaCount * tyroleanPizzaPrice + serviceSum +
+                serviceSauseT * 15 + serviceSauseC * 15
 
         println("| Всего заработано денег: $money\n")
     }

@@ -15,7 +15,7 @@ class PizzaVilga(
             "1" -> {
                 totalPeople++
                 serviceCount++
-                serviceSum+=200
+                serviceSum+=50
                 serviceTemp=1
 
                 println("С вас 50 рублей")
